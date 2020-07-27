@@ -1,0 +1,35 @@
+.main_chat
+  .header
+    .left-header
+      .left-header__title
+        = @group.name
+      .left-header__menbers
+        Member: 
+        - @group.users.each do |user|
+          %menber
+          = user.name
+
+    
+
+    .right-header
+      =link_to edit_group_path(@group), class:"button" do
+        .right-header__button
+          Edit
+       
+
+  
+  .messages
+    = render @messages  
+
+
+
+  .main-chat_form
+    .form
+      = form_for [@group, @message] do |f|
+        = f.text_field :content, class: 'form__message', placeholder: 'type a message'
+        .form__mask
+          = f.label :image, class: 'form__mask__image' do
+            = icon('fas', 'image', class: 'icon')
+            = f.file_field :image, class: 'hidden'
+        = f.submit '送信', class: 'form__submit'
+        
