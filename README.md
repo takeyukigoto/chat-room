@@ -1,5 +1,20 @@
-# README
-
+# アプリ概要
+## チャット投稿アプリ  
+![メイン画像](readchatmain.jpg)
+### 詳細説明  
+グループでコメント、画像が投稿できるアプリです。  
+### 機能
+AJAX非同期通信
+### 使用技術
+### 言語・ライブラリー
+・Haml  
+・CSS  
+・JavaScript  
+・jQuery  
+・RAILS  
+### 環境
+・AWS EC2 S3   
+・Capistrano 自動デプロイ
 
 ## groups_usersテーブル
 
