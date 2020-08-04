@@ -38,7 +38,6 @@ AJAX非同期通信
 
 
 ### Association
--
 - has_many :tweets
   has_many :gropus,through,groups_user
   has_many :group_users
