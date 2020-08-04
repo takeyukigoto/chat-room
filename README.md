@@ -37,10 +37,9 @@
 
 
 ### Association
-- 
-- has_many :tweets
-  has_many :users,through,groups_user
-  has_many :groups_users
+- has_many :tweets  
+  has_many :users,through,groups_user  
+  has_many :groups_users  
 
   ## tweetsテーブル
 
@@ -53,5 +52,5 @@
 
 
 ### Association
-- belongs_to :group
+- belongs_to :group  
 - belongs_to :user
