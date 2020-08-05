@@ -7,7 +7,7 @@
 http://54.150.10.60/
 ### テスト用アカウント  
 ・ユーザー　name:test email:test@mail  
-・グループ　name:testgrop  
+・グループ　name:testgroup  
 ### 機能
 Ajax非同期通信
 ### 使用技術
