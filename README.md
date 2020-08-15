@@ -14,7 +14,7 @@ Ajax非同期通信
 ### 使用技術
 ### 言語・ライブラリー
 ・Haml  
-・CSS  
+・Sass    
 ・JavaScript  
 ・jQuery  
 ・RAILS  
